@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    background-image: url(art.jpg);
+}
+
+.header {
+    padding: 10px;
+    text-align: center;
+    border: 7px double grey;
+
+}
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+}
+
+h1, h2 {
+    font-family: 'EB Garamond', serif;
+    color: #3d0269;
+    text-align: center;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: #252e2e;
+    text-align: center;
+}
+
+ol {
+    font-family: 'Open Sans', sans-serif;
+    color: #050505;
+}
+
+.footer {
+    font-size: 0.8em;
+    border: 7px double grey;
+}
